@@ -87,3 +87,48 @@
    /* background-color: white;*/
     color:orangered;
 }
+
+/* For the Product page*/
+
+.image_container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered_text {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }  
+
+  .image_link a:hover{
+      color: orangered;
+  }
+
+  .image_link a:link,.image_link a:visited{
+      color:white;
+      text-decoration: none;
+  }
+
+
+  .border {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+  }
+
+
+  .service{
+    text-align: center;
+    width: 100%;
+    color: orangered;
+    margin-top: 20px;
+      
+  }
+
+  .service_content a:hover{
+    border-color: orangered;
+  }
